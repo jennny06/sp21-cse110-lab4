@@ -1,8 +1,8 @@
 # 1a: 
-1. 20
-2. 20 
-3. 20 
-4. The code will return an error. Since let keyword only has block scope, therefore, let result can only be used within the if-else block. 
+1. 20\\ 
+2. 20 \\
+3. 20 \\
+4. The code will return an error. Since let keyword only has block scope, therefore, let result can only be used within the if-else block.\\ 
 5. The code will return an error. We have already assigned result to 0, therefore we cannot reassign it to something else.
 6. The code will return an error. In fact, we won't reach this line because the program will stop when we first try to reassign result to num1 + num2. 
 
