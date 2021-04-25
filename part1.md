@@ -22,13 +22,12 @@
 
 ## Data Types:
 12. 
-    A. student.name
-    B. student['Grad year']
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
-    E. student.courseLoad[0]
+    1.  student.name
+    2.  student['Grad year']
+    3.  student.greeting()
+    4.  student['Favorite Teacher'].name
+    5.  student.courseLoad[0]
 
 ## Basic Operators & Type Conversion 
-13.  
-
+13. 
 
