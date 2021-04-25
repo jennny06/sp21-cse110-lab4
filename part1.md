@@ -30,4 +30,25 @@
 
 ## Basic Operators & Type Conversion 
 13. 
+    1.  32, since integers map to their exact string representation
+    2.  1, since integers map to their exact string representation
+    3.  3, since null maps to 0 
+    4.  3null, str concatnation and whitespaces from both sides are ignored
+    5.  4, since true maps to 1
+    6.  0, since null and false map to 0
+    7.  3undefined, whitespaces from both sides are ignored
+    8.  NaN, since undefined maps to NaN 
+14. 
+    1.  true, string '2' becomes a number 2
+    2.  false, longer string is greater
+    3.  true, string '2' becomes a number 2
+    4.  false, === checks the equality without type conversion
+    5.  false, true maps to 1 and 1!=2
+    6.  true, boolean(2) evaluates to true and true is the same type as true
+
+## Functions
+17. It will return [2,4,6]. When we call modifyArray, we iterate through the entire list. For each element, we pass the element to doSomething, and it will return 2*element. Then, this new element is pushed into the new arary.
+
+## setInterval(), setTimeout(), clearTimeout()
+19. It will output 1 4 3 2 
 
